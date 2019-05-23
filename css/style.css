@@ -75,6 +75,9 @@ body {
   font-size: 28px;
   line-height: 34px;
 }
+.scrolled > button > span > svg > rect {
+  fill: #000;
+}
 @media screen and (max-width: 1350px) {
   .navbar-brand {
     margin-right: 0;
@@ -92,6 +95,11 @@ body {
     padding-top: 210px;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+}
+@media screen and (max-width: 778px) {
+  .scrolled.show {
+    background: #8EB16A;
   }
 }
 .navbar-nav {
@@ -123,9 +131,11 @@ body {
 .scrolled .btn-navbar {
   background: #8EB16A;
 }
+.navbar-toggler-icon > svg > rect {
+  fill: #fff;
+}
 .navbar-toggler-icon {
-  color: #fff;
-  background-image: url(../img/toggler.svg) !important;
+  background-image: none !important;
 }
 .navbar-toggler {
   border: none;
@@ -232,7 +242,7 @@ body {
   .logo {
     height: 32px;
     width: 118px;
-    background: none;
+    background-size: cover;
   }
   .first {
     background: linear-gradient(to bottom, #8EB16A 67%, #E2E0CB 67%);
