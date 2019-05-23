@@ -767,3 +767,68 @@ body {
   padding: 2px;
   margin-top: 8px;
 }
+@media screen and (max-width: 778px) {
+  .price-row {
+    background: #8EB16A;
+  }
+  .price {
+    margin-top: 144px;
+  }
+  .price-row > img {
+    display: none;
+  }
+  .price-left {
+    background: #F6F6F6;
+    padding: 32px;
+    margin-left: -1px;
+  }
+  .price-left > h2 {
+    font-size: 24px;
+    line-height: 160%;
+  }
+  .price-left > h2 > br {
+    display: none;
+  }
+  .price-right {
+    padding-top: 24px;
+    color: #fff;
+  }
+  .price-right > h3 {
+    font-size: 18px;
+    line-height: 160%;
+  }
+  .price-right > p {
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 16px;
+  }
+  .price-right > a:link,
+  .price-right > a:hover,
+  .price-right > a:visited {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 288px;
+    height: 40px;
+  }
+  .price-right > div > p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+  .price-right > div > span {
+    display: none;
+  }
+  .price-right > div > a:link,
+  .price-right > div > a:hover,
+  .price-right > div > a:visited {
+    font-size: 14px;
+    line-height: 180%;
+  }
+}
