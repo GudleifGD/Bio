@@ -7,10 +7,40 @@ window.onscroll = function () {
     document.getElementById("navbar").className = "navbar navbar-expand-lg navbar-light fixed-top scrolled";
   }
 }
-/* var revitem = 0;
-function slide () {
-var revItem = document.querySelectorAll('.review');
-console.log (revItem);
-return revItem;
-}
-document.addEventListener("DOMContentLoaded", slide ); */
+$(document).ready(function(){
+  $('.gallery').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+});
