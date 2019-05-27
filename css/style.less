@@ -462,7 +462,7 @@ body {
     margin-bottom: 0;
 }
 
-.btn-price:link,
+.btn-price,
 .btn-price:hover,
 .btn-price:visited {
     margin-top: 56px;
@@ -821,9 +821,9 @@ body {
     margin-top: 24px;
 }
 
-.price-right>a:link,
-.price-right>a:hover,
-.price-right>a:visited {
+.price-right>button,
+.price-right>button:hover,
+.price-right>button:visited {
     .bold;
     font-size: 18px;
     line-height: 22px;
@@ -906,9 +906,9 @@ body {
         margin-top: 16px;
     }
 
-    .price-right>a:link,
-    .price-right>a:hover,
-    .price-right>a:visited {
+    .price-right>button,
+    .price-right>button:hover,
+    .price-right>button:visited {
         .bold;
         font-size: 14px;
         line-height: 17px;
@@ -1867,7 +1867,7 @@ footer>div>div>div>div>a:visited {
 }
 
 @media screen and (max-width:778px) {
-    
+
     footer>div>div>div {
         display: flex;
         justify-content: space-between;
@@ -1876,7 +1876,7 @@ footer>div>div>div>div>a:visited {
         height: auto;
         padding-bottom: 16px;
     }
-    
+
     footer>div>div>div>p {
         margin-top: 40px;
         font-size: 13px;
@@ -1884,7 +1884,7 @@ footer>div>div>div>div>a:visited {
         /* or 23px */
         margin-bottom: 0;
     }
-    
+
     footer>div>div>div>div {
         display: flex;
         flex-direction: column;
@@ -1898,5 +1898,195 @@ footer>div>div>div>div>a:visited {
         margin-left: 0;
         line-height: 220%;
 
+    }
+}
+
+.modal-dialog {
+
+    width: 960px;
+    max-width: 960px;
+
+}
+
+.modal-content {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    width: 960px;
+    max-width: 960px;
+    height: 616px;
+    background: #8EB16A;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-body {
+    padding: 0;
+    border: none;
+}
+
+.close>span {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.question-modal {
+    padding-left: 196px;
+    padding-right: 196px;
+}
+
+.question-modal>h2 {
+    .bold;
+    font-size: 36px;
+    line-height: 160%;
+    /* or 58px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 16px;
+}
+
+.question-modal>h2::after {
+    position: absolute;
+    content: url(../img/line2.svg);
+    top: -10px;
+    left: -80px;
+}
+
+.question-modal>p {
+    .med;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    margin-top: 32px;
+    color: #FFFFFF;
+    width: 560px;
+}
+
+.form-modal>input {
+    .med;
+    width: 260px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    line-height: 26px;
+    height: 26px;
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 8px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.form-modal>input::-webkit-input-placeholder {
+    .med;
+    width: 260px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    line-height: 26px;
+    height: 26px;
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 8px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.form-modal>input[type='tel'],
+.form-modal>input[type='email'] {
+    margin-left: 40px;
+}
+
+.form-modal>input[type='text']:last-of-type {
+
+    width: 560px;
+
+}
+
+.form-modal>button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    width: 244px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.15);
+    color: #212121;
+    text-decoration: none;
+    margin-top: 56px;
+    border: none;
+}
+
+@media screen and (max-width:778px) {
+    .modal-dialog {
+        width: 320px;
+        max-width: 320px;
+        margin: 0;
+    }
+
+    .modal-content {
+        width: 320px;
+        height: 569px;
+    }
+
+    .question-modal {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .question-modal>h2 {
+        font-size: 24px;
+line-height: 140%;
+        margin-top: 16px;
+    }
+
+    .question-modal>h2::after {
+        position: absolute;
+        content: url(../img/line2.svg);
+        top: -10px;
+        left: -100px;
+    }
+
+    .question-modal>p {
+        font-size: 14px;
+line-height: 160%;
+        width: auto;
+    }
+
+    .form-modal>input {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .form-modal>input[type='tel'],
+    .form-modal>input[type='email'] {
+        margin-left: 0px;
+    }
+
+    .form-modal>input[type='text']:last-of-type {
+
+        width: 100%;
+
+    }
+
+    .form-modal>button {
+       
+        width: 100%;
+       
     }
 }

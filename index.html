@@ -25,6 +25,54 @@
 </head>
 
 <body>
+    <div class="modal fade" id="question" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="img/close.svg" alt="close"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="question-modal">
+                        <h2>Маєте питання <br> або хотіли б замовити?</h2>
+                        <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
+                            питання та допоможе оформити замовлення.</p>
+                        <form class="form-modal">
+                            <input type="text" placeholder="Ваше ім'я">
+                            <input type="tel" placeholder="+380 " value="+380">
+                            <input type="text" placeholder="Звернення або питання">
+                            <button>Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="price" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="img/close.svg" alt="close"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="question-modal">
+                        <h2>Отримайте повний прайс <br> та дізнайтесь всі умови</h2>
+                        <p>Заповніть цю форму і мы надішлемо на вашу адресу наш повний прайс. Вы зможете повністю
+                            вивчити всі наші ціни та інші подробиці. Будете готові зробити замовлення — ми на зв’язку!
+                        </p>
+                        <form class="form-modal">
+                            <input type="text" placeholder="Ваше ім'я">
+                            <input type="email" placeholder="Email">
+                            <button>Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
             <a class="navbar-brand exbold" href="#"><svg class="logo" width="177" height="48" viewBox="0 0 177 48"
@@ -87,12 +135,14 @@
                         <a class="nav-link" href="#">Контакти</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-navbar sbold d-flex d-lg-none" href="#" role="button">Замовити</a>
+                        <button class="btn btn-navbar sbold d-flex d-lg-none" data-toggle="modal"
+                            data-target="#question">Замовити</button>
                     </li>
                 </ul>
             </div>
             <div class="d-none d-lg-flex">
-                <a class="btn btn-navbar sbold d-none d-lg-flex" href="#" role="button">Замовити</a>
+                <button class="btn btn-navbar sbold d-none d-lg-flex" data-toggle="modal"
+                    data-target="#question">Замовити</button>
             </div>
         </nav>
     </header>
@@ -891,7 +941,8 @@
                 </div>
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <a class="btn-price" href="#" role="button">Получить полный прайс</a>
+                        <button class="btn-price" data-toggle="modal" data-target="#price">Получить полный
+                            прайс</button>
                     </div>
                 </div>
             </div>
@@ -987,7 +1038,7 @@
                         <h3>Дізнайтеся умови <br> та оберіть найвигідніші</h3>
                         <p>Відправимо повний прайс продукції Amelon, щоб ви могли все взважити та обміркувати. Наші
                             консультанти завжди готові відповісти на будь-які питання.</p>
-                        <a class="" href="#" role="button">Отримати прайс</a>
+                        <button class="" data-toggle="modal" data-target="#price">Отримати прайс</button>
                         <div>
                             <p>Бажаєте поговорити з живою людиною та щось запитати?</p>
                             <a href="tel:+380504200063">+380 (50) 420 00 63 </a> <span> | </span>
@@ -1230,8 +1281,8 @@
                     <a href="tel:+380(67)4572356">+380 (67) 457 23 56</a>
                     <a href="mailto:sales@bioposud.com.ua">sales@bioposud.com.ua</a>
                     <div class="social">
-                            <a href="#" role="button"><img src="img/insta.svg" alt="insta"></a>
-                            <a href="#" role="button"><img src="img/fb.svg" alt="fb"></a>
+                        <a href="#" role="button"><img src="img/insta.svg" alt="insta"></a>
+                        <a href="#" role="button"><img src="img/fb.svg" alt="fb"></a>
                     </div>
                 </div>
             </div>
@@ -1241,15 +1292,15 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                        <p>© 2019, Всі права захищено</p>
-                        <div>
-                            <a href="#">Політика конфіденційності</a>
-                            <a href="#"> Публічна оферта</a>
-                        </div>
+                    <p>© 2019, Всі права захищено</p>
+                    <div>
+                        <a href="#">Політика конфіденційності</a>
+                        <a href="#"> Публічна оферта</a>
+                    </div>
                 </div>
             </div>
         </div>
-</footer>
+    </footer>
 </body>
 
 </html>
