@@ -1424,14 +1424,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .sert-block>img {
     width: 260px;
     height: 368px;
-    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
 }
 
 .sert-block>h4 {
@@ -1500,23 +1499,50 @@ body {
 }
 
 .gallery-img {
-    width: 300px;
-    height: 296px;
-    padding: 20px;
+    
 
 }
 
 .gallery-img>img {
-    width: 260px;
-    height: 256px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    width: 288px;
+    height: 288px;
+    padding: 20px;
 }
 
+
+
+
+.slick-arrow {
+    position: absolute;
+    bottom: 0px;
+    font-size: 0;
+    background: none;
+    border: none;
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
 .slick-dots>li {
     position: relative;
-
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
 }
-
 .slick-dots>li>button {
     font-size: 0;
     line-height: 0;
@@ -1529,7 +1555,6 @@ body {
     border: 0;
     outline: none;
     background: transparent;
-
 }
 
 .slick-dots>li::before {
@@ -1541,17 +1566,17 @@ body {
     left: 0;
     width: 16px;
     height: 16px;
-    content: '•';
+    content: '';
     text-align: center;
-    color: #E2E0CB;
+    background-color: #E2E0CB;
     -webkit-font-smoothing: antialiased;
+    border-radius: 50%;
 
 }
 
-.slick-active {
-    color: #8EB16A;
+.slick-active::before {
+    background-color: #8EB16A!important;
 }
-
 @media screen and (max-width:778px) {
     .gallery {
         justify-content: center;
