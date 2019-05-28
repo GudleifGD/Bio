@@ -1131,6 +1131,7 @@ body {
 .reviews-box {
   display: flex;
   flex-wrap: nowrap;
+  padding-left: 20vw;
 }
 .review {
   height: 344px;
@@ -1168,27 +1169,6 @@ body {
   margin-left: 172px;
   margin-top: 64px;
 }
-.btn-left {
-  background-image: url(../img/arrow-point-to-left.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 32px;
-  width: 32px;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  margin-right: 24px;
-}
-.btn-right {
-  background-image: url(../img/arrow-point-to-right.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 32px;
-  width: 32px;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-}
 @media screen and (max-width: 778px) {
   .reviews {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 27%, #E2E0CB 27%);
@@ -1212,6 +1192,8 @@ body {
   .reviews-box {
     display: flex;
     flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .review {
     width: 288px;
@@ -1299,30 +1281,9 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   margin-top: 24px;
   color: #212121;
-}
-@media screen and (max-width: 778px) {
-  .sert {
-    margin-top: 120px;
-  }
-  .sert > div > h2 {
-    font-size: 24px;
-    line-height: 160%;
-    margin-left: 32px;
-  }
-  .sert > div > h2::after {
-    position: absolute;
-    content: url(../img/line.svg);
-    top: -10px;
-    left: -70px;
-  }
-  .sert-block > h4 {
-    display: none;
-  }
-  .sert-block > img {
-    margin-bottom: 24px;
-  }
 }
 .gallery-title > h2 {
   font-family: 'Montserrat', sans-serif;
@@ -1356,13 +1317,36 @@ body {
 }
 .slick-arrow {
   position: absolute;
-  bottom: 0px;
+  bottom: -70px;
   font-size: 0;
   background: none;
   border: none;
-  height: 0px;
-  width: 0px;
+  height: 32px;
+  width: 32px;
   padding: 0;
+  left: 30vw;
+}
+.slick-prev {
+  background-image: url(../img/arrow-point-to-left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+  width: 32px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-right: 24px;
+}
+.slick-next {
+  background-image: url(../img/arrow-point-to-right.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+  width: 32px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  left: 33vw;
 }
 .slick-dots {
   position: absolute;
@@ -1894,5 +1878,59 @@ footer > div > div > div > div > a:visited {
   }
   .form-modal > button {
     width: 100%;
+  }
+}
+@media screen and (max-width: 778px) {
+  .sert {
+    margin-top: 120px;
+  }
+  .sert > div > h2 {
+    font-size: 24px;
+    line-height: 160%;
+    margin-left: 32px;
+  }
+  .sert > div > h2::after {
+    position: absolute;
+    content: url(../img/line.svg);
+    top: -10px;
+    left: -70px;
+  }
+  .sert-block > h4 {
+    display: none;
+  }
+  .sert-block > img {
+    margin-bottom: 24px;
+  }
+  .slick-arrow {
+    position: absolute;
+    bottom: -40px;
+    font-size: 0;
+    background: none;
+    border: none;
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    left: 30vw;
+  }
+  .slick-prev {
+    background-image: url(../img/arrow-point-to-left.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .slick-next {
+    background-image: url(../img/arrow-point-to-right.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    left: 45vw;
   }
 }

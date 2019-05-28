@@ -9,6 +9,7 @@ window.onscroll = function () {
 }
 $(document).ready(function(){
   $('.gallery').slick({
+    arrows:false,
     dots: true,
     infinite: true,
     speed: 300,
@@ -48,6 +49,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.slide-sert').slick({
+    arrows:false,
     dots: true,
     infinite: true,
     speed: 300,
@@ -70,6 +72,45 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+});
+
+$(document).ready(function(){
+  $('.reviews-box').slick({
+    arrows:true,
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       },
       {
