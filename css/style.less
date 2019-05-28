@@ -31,7 +31,76 @@
 }
 
 
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -127,6 +196,7 @@ body {
     .scrolled.show {
         background: #8EB16A;
     }
+
 }
 
 .navbar-nav {
@@ -145,8 +215,17 @@ body {
     transition: all ease-in 1s;
 }
 
-.navbar-nav>.nav-item>.nav-link:hover::after
-{
+.navbar-nav>.nav-item>.nav-link:link,
+.navbar-nav>.nav-item>.nav-link:hover,
+.navbar-nav>.nav-item>.nav-link:visited {
+    color: #F6F6F6 !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    transition: all ease-in 1s;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover::after {
     position: absolute;
     content: url(../img/line4.svg);
     bottom: -5px;
@@ -163,8 +242,7 @@ body {
     color: #000 !important;
 }
 
-.scrolled>.navbar-collapse>.navbar-nav>.nav-item>.nav-link:hover::after
-{
+.scrolled>.navbar-collapse>.navbar-nav>.nav-item>.nav-link:hover::after {
     content: url(../img/line3.svg);
 }
 
@@ -183,9 +261,6 @@ body {
     .main_green;
 }
 
-.navbar-toggler-icon>svg>rect {
-    fill: #fff;
-}
 
 .navbar-toggler-icon {
     background-image: none !important;
@@ -300,7 +375,27 @@ body {
 
 @media screen and (max-width:780px) {
     .navbar-collapse {
+        margin-top: 24px;
+        padding-left: 8px;
         background: #8EB16A;
+    }
+
+    .navbar-collapse>.navbar-nav>.nav-item>.nav-link {
+        margin-top: 32px;
+        height: 16px;
+        width: 80%;
+    }
+    .navbar-collapse>.navbar-nav>.nav-item:last-child {
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-collapse>.navbar-nav>.nav-item>button {
+        width: 256px;
+        height: 40px;
+        background: #FFFFFF;
+        color: #000;
     }
 
     .logo {
@@ -1286,7 +1381,7 @@ body {
     background: #FFFFFF;
     padding: 48px;
     margin-right: 40px;
-    border:1px  solid #E2E0CB ;
+    border: 1px solid #E2E0CB;
 }
 
 .review>div {
@@ -1420,7 +1515,7 @@ body {
 .sert-block {
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
     padding: 0;
     padding-right: 10px;
@@ -1474,10 +1569,7 @@ body {
     padding: 0;
 }
 
-.gallery-img {
-    
-
-}
+.gallery-img {}
 
 .gallery-img>img {
     width: 288px;
@@ -1499,6 +1591,7 @@ body {
     padding: 0;
     left: 30vw;
 }
+
 .slick-prev {
     background-image: url(../img/arrow-point-to-left.svg);
     background-position: center;
@@ -1533,6 +1626,7 @@ body {
     list-style: none;
     text-align: center;
 }
+
 .slick-dots>li {
     position: relative;
     display: inline-block;
@@ -1542,6 +1636,7 @@ body {
     padding: 0;
     cursor: pointer;
 }
+
 .slick-dots>li>button {
     font-size: 0;
     line-height: 0;
@@ -1574,8 +1669,9 @@ body {
 }
 
 .slick-active::before {
-    background-color: #8EB16A!important;
+    background-color: #8EB16A !important;
 }
+
 @media screen and (max-width:778px) {
     .gallery {
         justify-content: center;
@@ -2074,7 +2170,7 @@ footer>div>div>div>div>a:visited {
 
     .question-modal>h2 {
         font-size: 24px;
-line-height: 140%;
+        line-height: 140%;
         margin-top: 16px;
     }
 
@@ -2087,7 +2183,7 @@ line-height: 140%;
 
     .question-modal>p {
         font-size: 14px;
-line-height: 160%;
+        line-height: 160%;
         width: auto;
     }
 
@@ -2109,9 +2205,9 @@ line-height: 160%;
     }
 
     .form-modal>button {
-       
+
         width: 100%;
-       
+
     }
 }
 
@@ -2140,6 +2236,7 @@ line-height: 160%;
     .sert-block>img {
         margin-bottom: 24px;
     }
+
     .slick-arrow {
         position: absolute;
         bottom: -40px;
@@ -2151,6 +2248,7 @@ line-height: 160%;
         padding: 0;
         left: 30vw;
     }
+
     .slick-prev {
         background-image: url(../img/arrow-point-to-left.svg);
         background-position: center;
@@ -2160,9 +2258,9 @@ line-height: 160%;
         width: 32px;
         background-color: rgba(0, 0, 0, 0.0);
         border: none;
-        
+
     }
-    
+
     .slick-next {
         background-image: url(../img/arrow-point-to-right.svg);
         background-position: center;

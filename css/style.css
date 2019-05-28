@@ -183,6 +183,15 @@ body {
   position: relative;
   transition: all ease-in 1s;
 }
+.navbar-nav > .nav-item > .nav-link:link,
+.navbar-nav > .nav-item > .nav-link:hover,
+.navbar-nav > .nav-item > .nav-link:visited {
+  color: #F6F6F6 !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  transition: all ease-in 1s;
+}
 .navbar-nav > .nav-item > .nav-link:hover::after {
   position: absolute;
   content: url(../img/line4.svg);
@@ -210,9 +219,6 @@ body {
 }
 .scrolled .btn-navbar {
   background: #8EB16A;
-}
-.navbar-toggler-icon > svg > rect {
-  fill: #fff;
 }
 .navbar-toggler-icon {
   background-image: none !important;
@@ -317,7 +323,25 @@ body {
 }
 @media screen and (max-width: 780px) {
   .navbar-collapse {
+    margin-top: 24px;
+    padding-left: 8px;
     background: #8EB16A;
+  }
+  .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
+    margin-top: 32px;
+    height: 16px;
+    width: 80%;
+  }
+  .navbar-collapse > .navbar-nav > .nav-item:last-child {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse > .navbar-nav > .nav-item > button {
+    width: 256px;
+    height: 40px;
+    background: #FFFFFF;
+    color: #000;
   }
   .logo {
     height: 32px;
@@ -1219,7 +1243,7 @@ body {
   background: #FFFFFF;
   padding: 48px;
   margin-right: 40px;
-  border: 1px  solid #E2E0CB ;
+  border: 1px solid #E2E0CB;
 }
 .review > div {
   display: flex;
@@ -1477,7 +1501,7 @@ body {
   border-radius: 50%;
 }
 .slick-active::before {
-  background-color: #8EB16A!important;
+  background-color: #8EB16A !important;
 }
 @media screen and (max-width: 778px) {
   .gallery {
