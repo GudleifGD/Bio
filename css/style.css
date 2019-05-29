@@ -338,12 +338,6 @@ body {
 .fix-right {
   padding-right: 0 !important;
 }
-.more > a::after {
-  content: url(../img/down.svg);
-  position: absolute;
-  right: -16px;
-  top: -3px;
-}
 @media screen and (max-width: 780px) {
   .navbar-collapse {
     margin-top: 24px;
@@ -407,9 +401,7 @@ body {
   .fix-right {
     padding-left: 0 !important;
   }
-  .more > a:link,
-  .more > a:hover,
-  .more > a:visited {
+  .more:link {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -634,9 +626,7 @@ body {
     color: #212121;
     margin-bottom: 0;
   }
-  .btn-price:link,
-  .btn-price:hover,
-  .btn-price:visited {
+  .btn-price {
     font-size: 14px;
     line-height: 17px;
   }

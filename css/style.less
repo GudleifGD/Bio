@@ -396,13 +396,7 @@ body {
     padding-right: 0 !important;
 }
 
-.more>a::after {
-    content: url(../img/down.svg);
-    position: absolute;
-    right: -16px;
-    top: -3px;
 
-}
 
 @media screen and (max-width:780px) {
     .navbar-collapse {
@@ -481,13 +475,10 @@ body {
         padding-left: 0 !important;
     }
 
-    .more>a:link,
-    .more>a:hover,
-    .more>a:visited {
+    .more:link{
         .sbold;
         font-size: 16px;
         line-height: 146.28%;
-
     }
 
     .navbar-nav>.nav-item>.nav-link:hover::after {
@@ -619,7 +610,6 @@ body {
 }
 
 .btn-price,
-
 .btn-price:visited {
     margin-top: 56px;
     width: 284px;
@@ -725,9 +715,7 @@ body {
         margin-bottom: 0;
     }
 
-    .btn-price:link,
-    .btn-price:hover,
-    .btn-price:visited {
+    .btn-price {
         font-size: 14px;
         line-height: 17px;
     }
