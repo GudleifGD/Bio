@@ -88,3 +88,10 @@ $(document).ready(function(){
     ]
   });
 });
+
+$(function(){
+  $("#phone").mask("+380 (99) 999 99 99");
+});
+$(function(){
+  $("#phone1").mask("+380 (99) 999 99 99");
+});

@@ -20,6 +20,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="./slick/slick.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
     <title>BIO</title>
 </head>
@@ -29,8 +30,8 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                        <a class="navbar-brand exbold" href="#"><svg class="logo" width="177" height="48" viewBox="0 0 177 48"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a class="navbar-brand exbold" href="#"><svg class="logo" width="177" height="48"
+                            viewBox="0 0 177 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M42.7305 8.34784V39.6522C46.3994 35.4417 48.586 29.9863 48.586 24.0183C48.586 18.0504 46.3624 12.5584 42.7305 8.34784Z"
                                 fill="#95CA49" />
@@ -63,33 +64,32 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                        <div class=" navbar-collapse sbold" id="453">
-
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Продукція</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Переваги</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Для яких цілей</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Оплата та доставка</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Відгуки</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Контакти</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <button class="btn btn-navbar sbold d-flex d-lg-none" data-toggle="modal"
-                                            data-target="#question">Замовити</button>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class=" navbar-collapse sbold" id="453">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Продукція</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Переваги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Для яких цілей</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Оплата та доставка</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Відгуки</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контакти</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-navbar sbold d-flex d-lg-none" data-toggle="modal"
+                                    data-target="#question">Замовити</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@
                             питання та допоможе оформити замовлення.</p>
                         <form class="form-modal">
                             <input type="text" placeholder="Ваше ім'я">
-                            <input type="tel" placeholder="+380 " value="+380">
+                            <input type="tel" id="phone1" placeholder="Телефон" >
                             <input type="text" placeholder="Звернення або питання">
                             <button>Надіслати</button>
                         </form>
@@ -1271,34 +1271,34 @@
                         <h2>Сертифікати екологічності та безпеки</h2>
                     </div>
 
-                            <div class="col-12 col-lg-3 sert-block ">
-                                    <img src="img/sert1.png" alt="sert">
-                                    <h4>
-                                        Сертификат <br> такой-то
-                                    </h4>
-                                </div>
-                                <div class="col-12 col-lg-3 sert-block ">
-                                    <img src="img/sert2.png" alt="sert">
-                                    <h4>
-                                        Сертификат австрийского <br> центра такой-то
-                                    </h4>
-                                </div>
-                                <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
-                
-                                    <img src="img/sert1.png" alt="sert">
-                                    <h4>
-                                        Сертификат <br> такой-то
-                                    </h4>
-                                </div>
-                                <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
-                                    <img src="img/sert2.png" alt="sert">
-                                    <h4>
-                                        Сертификат австрийского <br> центра такой-то
-                                    </h4>
-                        </div>
+                    <div class="col-12 col-lg-3 sert-block ">
+                        <img src="img/sert1.png" alt="sert">
+                        <h4>
+                            Сертификат <br> такой-то
+                        </h4>
+                    </div>
+                    <div class="col-12 col-lg-3 sert-block ">
+                        <img src="img/sert2.png" alt="sert">
+                        <h4>
+                            Сертификат австрийского <br> центра такой-то
+                        </h4>
+                    </div>
+                    <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
+
+                        <img src="img/sert1.png" alt="sert">
+                        <h4>
+                            Сертификат <br> такой-то
+                        </h4>
+                    </div>
+                    <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
+                        <img src="img/sert2.png" alt="sert">
+                        <h4>
+                            Сертификат австрийского <br> центра такой-то
+                        </h4>
+                    </div>
                 </div>
             </div>
-           
+
         </section>
         <section>
             <div class="container">
@@ -1340,7 +1340,7 @@
                             питання та допоможе оформити замовлення.</p>
                         <form class="form">
                             <input type="text" placeholder="Ваше ім'я">
-                            <input type="tel" placeholder="+380 " value="+380">
+                            <input type="tel" id="phone" placeholder="Телефон" >
                             <input type="text" placeholder="Звернення або питання">
                             <button>Надіслати</button>
                         </form>
