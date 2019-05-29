@@ -845,6 +845,7 @@ body {
   position: absolute;
   content: url(../img/line.svg);
   bottom: -22px;
+  left: 0px;
 }
 .price-left {
   background: linear-gradient(to bottom, #F6F6F6 35%, #fff 35%);
