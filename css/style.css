@@ -1588,7 +1588,10 @@ body {
   color: #FFFFFF;
   width: 560px;
 }
-.form > input {
+.form > div {
+  position: relative;
+}
+.form > div > input {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1600,18 +1603,55 @@ body {
   height: 26px;
   margin-top: 40px;
   font-size: 16px;
-  padding: 8px;
-  padding-bottom: 10px;
+  padding-left: 8px;
   color: #FFFFFF;
+  position: relative;
+}
+.form > div > input:focus ~ label {
+  opacity: 0.6;
 }
 input:focus {
   outline: none;
 }
-.form > input::-webkit-input-placeholder {
+input {
+  position: relative;
+}
+label {
+  position: absolute;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
+  font-size: 11px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  opacity: 0;
+  bottom: 16px;
+  left: 8px;
+  transition: all ease-in 0.2s;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form > div {
   width: 260px;
+}
+.form > div:last-child {
+  width: 100%;
+}
+#text {
+  width: 560px;
+}
+.fixphone {
+  left: 43px;
+}
+.form > div > input::-webkit-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
   background: transparent;
   border: none;
   border-bottom: 2px solid #FFFFFF;
@@ -1621,11 +1661,15 @@ input:focus {
   font-size: 16px;
   color: #FFFFFF;
   opacity: 0.6;
+  transition: all ease-in 0.1s;
 }
-.form > input[type='tel'] {
+.form > div > input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.form > div > input[type='tel'] {
   margin-left: 35px;
 }
-.form > input:last-of-type {
+.form > div:last-of-type {
   width: 560px;
 }
 .form > button {
@@ -1738,7 +1782,7 @@ input:focus {
     width: auto;
     margin-top: 16px;
   }
-  .form > input {
+  .form > div > input {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1754,7 +1798,7 @@ input:focus {
     padding-bottom: 10px;
     color: #FFFFFF;
   }
-  .form > input::-webkit-input-placeholder {
+  .form > div > input::-webkit-input-placeholder {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1771,10 +1815,10 @@ input:focus {
     color: #FFFFFF;
     opacity: 0.6;
   }
-  .form > input[type='tel'] {
+  .form > div > input[type='tel'] {
     margin-left: 0px;
   }
-  .form > input:last-of-type {
+  .form > div > input:last-of-type {
     width: 100%;
   }
   .form > button {
@@ -1799,6 +1843,12 @@ input:focus {
   .que-right > a:visited {
     font-size: 18px;
     line-height: 180%;
+  }
+  #text {
+    width: 260px;
+  }
+  .fixphone {
+    left: 8px;
   }
 }
 footer {
