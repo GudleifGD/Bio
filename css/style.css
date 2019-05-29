@@ -1816,8 +1816,7 @@ label {
     height: 28px;
     margin-top: 40px;
     font-size: 16px;
-    padding: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     color: #FFFFFF;
   }
   .form > div > input::-webkit-input-placeholder {
@@ -1831,8 +1830,7 @@ label {
     height: 28px;
     margin-top: 40px;
     font-size: 16px;
-    padding: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     color: #FFFFFF;
     opacity: 0.6;
   }
@@ -1841,6 +1839,9 @@ label {
   }
   .form > div > input:last-of-type {
     width: 100%;
+  }
+  .form > div > input[type='email'] {
+    margin-left: 0px;
   }
   .form > button {
     width: 100%;
@@ -1999,67 +2000,6 @@ footer > div > div > div > div > a:visited {
   color: #FFFFFF;
   width: 560px;
 }
-.form-modal > input {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  width: 260px;
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid #FFFFFF;
-  border-radius: 0;
-  line-height: 26px;
-  height: 26px;
-  margin-top: 40px;
-  font-size: 16px;
-  padding: 8px;
-  padding-bottom: 10px;
-  color: #FFFFFF;
-}
-.form-modal > input::-webkit-input-placeholder {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  width: 260px;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  line-height: 26px;
-  height: 26px;
-  margin-top: 40px;
-  font-size: 16px;
-  padding: 8px;
-  padding-bottom: 10px;
-  color: #FFFFFF;
-  opacity: 0.6;
-}
-.form-modal > input[type='tel'],
-.form-modal > input[type='email'] {
-  margin-left: 40px;
-}
-.form-modal > input[type='text']:last-of-type {
-  width: 560px;
-}
-.form-modal > button {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.05em;
-  width: 244px;
-  height: 48px;
-  background: #FFFFFF;
-  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.15);
-  color: #212121;
-  text-decoration: none;
-  margin-top: 56px;
-  border: none;
-}
 @media screen and (max-width: 778px) {
   .modal-dialog {
     width: 100vw;
@@ -2089,20 +2029,6 @@ footer > div > div > div > div > a:visited {
     font-size: 14px;
     line-height: 160%;
     width: auto;
-  }
-  .form-modal > input {
-    width: 100%;
-    margin-top: 24px;
-  }
-  .form-modal > input[type='tel'],
-  .form-modal > input[type='email'] {
-    margin-left: 0px;
-  }
-  .form-modal > input[type='text']:last-of-type {
-    width: 100%;
-  }
-  .form-modal > button {
-    width: 100%;
   }
 }
 @media screen and (max-width: 778px) {
