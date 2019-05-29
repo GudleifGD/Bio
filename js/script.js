@@ -7,6 +7,8 @@ window.onscroll = function () {
     document.getElementById("navbar").className = "navbar navbar-expand-lg navbar-light fixed-top scrolled";
   }
 }
+ 
+
 
 $(document).ready(function(){
   $('.gallery').slick({

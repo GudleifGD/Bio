@@ -106,6 +106,9 @@
 .white {
   background: #F6F6F6;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-image: url(../img/back.svg);
   background-size: cover;
@@ -166,6 +169,9 @@ body {
   }
 }
 @media screen and (max-width: 778px) {
+  /*  html {
+        scroll-behavior: auto;
+    } */
   .scrolled.show {
     background: #8EB16A;
   }
@@ -338,7 +344,6 @@ body {
 @media screen and (max-width: 780px) {
   .navbar-collapse {
     margin-top: 24px;
-    padding-left: 8px;
     background: #8EB16A;
   }
   .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
@@ -352,7 +357,7 @@ body {
     justify-content: center;
   }
   .navbar-collapse > .navbar-nav > .nav-item > button {
-    width: 256px;
+    width: calc(100% - 32px);
     height: 40px;
     background: #FFFFFF;
     color: #000;
@@ -407,6 +412,9 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 146.28%;
+  }
+  .navbar-nav > .nav-item > .nav-link:hover::after {
+    opacity: 0;
   }
 }
 .products-title > h2 {
