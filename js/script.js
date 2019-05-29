@@ -81,6 +81,8 @@ $(document).ready(function(){
       {
         breakpoint: 600,
         settings: {
+          arrows:false,
+          dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -88,6 +90,8 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
+          arrows:false,
+          dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }

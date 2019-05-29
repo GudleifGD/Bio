@@ -1544,6 +1544,7 @@ body {
   height: 16px;
   content: '';
   text-align: center;
+  border: #FFFFFF solid 1px;
   background-color: #E2E0CB;
   -webkit-font-smoothing: antialiased;
   border-radius: 50%;
