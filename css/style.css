@@ -216,9 +216,19 @@ body {
   background: #83718A;
   color: #F6F6F6;
   border-radius: 0;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.35s;
+}
+.btn-navbar:hover {
+  background: #615466;
+  color: #F6F6F6;
 }
 .scrolled .btn-navbar {
   background: #8EB16A;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.scrolled .btn-navbar:hover {
+  background: #718C54;
 }
 .navbar-toggler-icon {
   background-image: none !important;
@@ -441,6 +451,13 @@ body {
   height: 100%;
   width: 100%;
   background: #F6F6F6;
+  border-radius: 0;
+  border: none;
+  transition: all ease-in-out 0.35s;
+}
+.nav-tabs > .nav-item > .nav-link:hover {
+  background: #83718A;
+  color: #f6f6f6;
 }
 .nav-tabs > .nav-item > .active {
   border: none;
@@ -507,7 +524,6 @@ body {
   margin-bottom: 0;
 }
 .btn-price,
-.btn-price:hover,
 .btn-price:visited {
   margin-top: 56px;
   width: 284px;
@@ -520,10 +536,16 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
   background: #83718A;
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0;
+  transition: all ease-in-out 0.35s;
+}
+.btn-price:hover {
+  background: #615466;
 }
 @media screen and (max-width: 1220px) {
   .nav-tabs > .nav-item > .nav-link {
@@ -839,7 +861,6 @@ body {
   margin-top: 24px;
 }
 .price-right > button,
-.price-right > button:hover,
 .price-right > button:visited {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -858,6 +879,13 @@ body {
   color: #212121;
   text-decoration: none;
   margin-top: 24px;
+  border: none;
+  border-radius: 0;
+  transition: all ease-in-out 0.35s;
+}
+.price-right > button:hover {
+  background: #83718A;
+  color: #F6F6F6;
 }
 .price-right > div > p {
   font-family: 'Montserrat', sans-serif;
@@ -1614,6 +1642,11 @@ body {
   text-decoration: none;
   margin-top: 56px;
   border: none;
+  transition: all ease-in-out 0.35s;
+}
+.form > button:hover {
+  background: #83718A;
+  color: #f6f6f6;
 }
 .que-right {
   margin-top: 184px;
@@ -1662,6 +1695,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all ease-in-out 0.35s;
+}
+.social > a:hover {
+  background: #615466;
 }
 .social > a:last-of-type {
   margin-left: 24px;

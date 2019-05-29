@@ -167,6 +167,7 @@ body {
     fill: #000;
 }
 
+
 @media screen and (max-width:1350px) {
 
     .navbar-brand {
@@ -255,10 +256,20 @@ body {
     .violet;
     color: #F6F6F6;
     border-radius: 0;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.35s;
 }
-
+.btn-navbar:hover {
+    background: #615466;
+    color: #F6F6F6;
+}
 .scrolled .btn-navbar {
     .main_green;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.scrolled .btn-navbar:hover {
+    background: #718C54;
+
 }
 
 
@@ -508,8 +519,14 @@ body {
     height: 100%;
     width: 100%;
     background: #F6F6F6;
+    border-radius:0; 
+    border: none;
+    transition: all ease-in-out 0.35s;
 }
-
+.nav-tabs>.nav-item>.nav-link:hover {
+   .violet;
+   color: #f6f6f6;
+}
 .nav-tabs>.nav-item>.active {
     border: none;
     .violet;
@@ -576,7 +593,7 @@ body {
 }
 
 .btn-price,
-.btn-price:hover,
+
 .btn-price:visited {
     margin-top: 56px;
     width: 284px;
@@ -587,10 +604,16 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    .bold;
+    .sbold;
     color: #FFFFFF;
     .violet;
     box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0;
+    transition: all ease-in-out 0.35s;
+}
+.btn-price:hover {
+    background: #615466;
 }
 
 @media screen and (max-width:1220px) {
@@ -935,7 +958,6 @@ body {
 }
 
 .price-right>button,
-.price-right>button:hover,
 .price-right>button:visited {
     .bold;
     font-size: 18px;
@@ -952,6 +974,14 @@ body {
     color: #212121;
     text-decoration: none;
     margin-top: 24px;
+    border: none;
+    border-radius:0;
+    transition: all ease-in-out 0.35s; 
+}
+
+.price-right>button:hover {
+    .violet;
+    color: #F6F6F6;
 }
 
 .price-right>div>p {
@@ -1789,8 +1819,12 @@ body {
     text-decoration: none;
     margin-top: 56px;
     border: none;
+    transition: all ease-in-out 0.35s;
 }
-
+.form>button:hover {
+    .violet;
+    color: #f6f6f6;
+}
 .que-right {
     margin-top: 184px;
     display: flex;
@@ -1841,6 +1875,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all ease-in-out 0.35s;
+}
+.social>a:hover {
+    background: #615466;
 }
 
 .social>a:last-of-type {
