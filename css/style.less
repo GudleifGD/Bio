@@ -732,13 +732,18 @@ body {
         line-height: 17px;
     }
 }
-
+#prosc {
+    box-sizing: border-box;
+    padding-top: 240px;
+}
 .prosc {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.0) 30%, #E2E0CB 30%);
-    margin-top: 240px;
+    
     padding-top: 80px;
     padding-bottom: 64px;
 }
+
+
 
 .prosc-title>h2 {
     .bold;
@@ -774,9 +779,12 @@ body {
 }
 
 @media screen and (max-width:780px) {
+    #prosc {
+        box-sizing: border-box;
+        padding-top: 120px;
+    }
     .prosc {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 5%, #E2E0CB 5%);
-        margin-top: 120px;
         padding-top: 0px;
         padding-bottom: 32px;
     }
@@ -829,8 +837,9 @@ body {
     z-index: 1;
 }
 
-.targets {
-    margin-top: 240px;
+#targets {
+    box-sizing: content-box;
+    padding-top: 240px;
 }
 
 .fix-margin>h2 {
@@ -859,8 +868,9 @@ body {
 }
 
 @media screen and (max-width:780px) {
-    .targets {
-        margin-top: 120px;
+    #targets {
+        box-sizing: content-box;
+        padding-top: 120px;
     }
 
     .target {
@@ -1117,7 +1127,8 @@ body {
 }
 
 .payment {
-    margin-top: 304px;
+    box-sizing: content-box;
+    padding-top: 304px;
 }
 
 .payment-left {
@@ -1201,7 +1212,7 @@ body {
 
 @media screen and (max-width:778px) {
     .payment {
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
     .payment-left {
@@ -1398,11 +1409,16 @@ body {
     }
 }
 
+#reviews {
+    box-sizing: content-box;
+    padding-top: 240px;
+}
+
 .reviews {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.0) 27%, #E2E0CB 27%);
     min-height: 680px;
     overflow-x: hidden;
-    margin-top: 240px;
+    
 }
 
 .reviews-title {
@@ -1472,11 +1488,14 @@ body {
 
 
 @media screen and (max-width:778px) {
+    #reviews {
+        box-sizing: content-box;
+        padding-top: 120px;
+    }
     .reviews {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 27%, #E2E0CB 27%);
         min-height: 560px;
         overflow-x: hidden;
-        margin-top: 120px;
     }
 
     .reviews-title {
