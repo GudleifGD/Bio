@@ -1607,6 +1607,7 @@ body {
   background: transparent;
   border: none;
   border-bottom: 2px solid #FFFFFF;
+  border-radius: 0;
   line-height: 26px;
   height: 28px;
   margin-top: 40px;
@@ -1799,6 +1800,7 @@ label {
     background: transparent;
     border: none;
     border-bottom: 2px solid #FFFFFF;
+    border-radius: 0;
     line-height: 26px;
     height: 28px;
     margin-top: 40px;
@@ -1994,6 +1996,7 @@ footer > div > div > div > div > a:visited {
   background: transparent;
   border: none;
   border-bottom: 2px solid #FFFFFF;
+  border-radius: 0;
   line-height: 26px;
   height: 26px;
   margin-top: 40px;
@@ -2009,7 +2012,7 @@ footer > div > div > div > div > a:visited {
   width: 260px;
   background: transparent;
   border: none;
-  border-bottom: 2px solid #FFFFFF;
+  border-radius: 0;
   line-height: 26px;
   height: 26px;
   margin-top: 40px;
