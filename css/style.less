@@ -116,9 +116,11 @@
 .white {
     background: #F6F6F6;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-image: url(../img/back.svg);
     background-size: cover;
@@ -170,10 +172,10 @@ body {
 }
 
 
-@media screen and (max-width:1350px) {
+@media screen and (max-width:1440px) {
 
     .navbar-brand {
-        margin-right: 0;
+        margin-right: 32px;
 
     }
 
@@ -195,7 +197,7 @@ body {
 }
 
 @media screen and (max-width:778px) {
-   /*  html {
+    /*  html {
         scroll-behavior: auto;
     } */
 
@@ -364,18 +366,15 @@ body {
     padding: 19px;
 }
 
-.more {
+.more:link,
+.more:hover,
+.more:visited{
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F6F6F6;
     min-height: 48px;
-}
-
-.more>a:link,
-.more>a:hover,
-.more>a:visited {
     .sbold;
     font-size: 24px;
     line-height: 35px;
@@ -383,7 +382,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     position: relative;
+    transition: all ease-in 0.35s;
+    text-decoration: none;
 }
+
+.more:hover {
+    background: #DFDFDF;
+
+}
+
 
 .fix-right {
     padding-right: 0 !important;
@@ -416,7 +423,7 @@ body {
     }
 
     .navbar-collapse>.navbar-nav>.nav-item>button {
-        width:~"calc(100% - 32px)";
+        width: ~"calc(100% - 32px)";
         height: 40px;
         background: #FFFFFF;
         color: #000;
@@ -482,6 +489,7 @@ body {
         line-height: 146.28%;
 
     }
+
     .navbar-nav>.nav-item>.nav-link:hover::after {
         opacity: 0;
     }
@@ -1788,7 +1796,7 @@ body {
     background: transparent;
     border: none;
     border-bottom: 2px solid #FFFFFF;
-    border-radius:0; 
+    border-radius: 0;
     line-height: 26px;
     height: 28px;
     margin-top: 40px;
@@ -1798,10 +1806,10 @@ body {
     color: #FFFFFF;
     position: relative;
 }
-.form>div>input:focus ~
-label  {
+
+.form>div>input:focus~label {
     opacity: 0.6;
-} 
+}
 
 input:focus {
     outline: none;
@@ -1841,9 +1849,11 @@ label {
 #text {
     width: 560px;
 }
+
 .fixphone {
     left: 43px;
 }
+
 .form>div>input::-webkit-input-placeholder {
     .med;
     width: 100%;
@@ -1858,8 +1868,9 @@ label {
     opacity: 0.6;
     transition: all ease-in 0.1s;
 }
+
 .form>div>input:focus::-webkit-input-placeholder {
-   
+
     opacity: 0;
 }
 
@@ -2002,7 +2013,7 @@ label {
         background: transparent;
         border: none;
         border-bottom: 2px solid #FFFFFF;
-        border-radius:0;
+        border-radius: 0;
         line-height: 26px;
         height: 28px;
         margin-top: 40px;
@@ -2064,16 +2075,18 @@ label {
         font-size: 18px;
         line-height: 180%;
     }
-    
-#text {
-    width: 260px;
-}
-#text1 {
-    width: 260px;
-}
-.fixphone {
-    left: 8px;
-}
+
+    #text {
+        width: 260px;
+    }
+
+    #text1 {
+        width: 260px;
+    }
+
+    .fixphone {
+        left: 8px;
+    }
 }
 
 
@@ -2221,7 +2234,7 @@ footer>div>div>div>div>a:visited {
     background: transparent;
     border: none;
     border-bottom: 2px solid #FFFFFF;
-    border-radius:0;
+    border-radius: 0;
     line-height: 26px;
     height: 26px;
     margin-top: 40px;
@@ -2236,7 +2249,7 @@ footer>div>div>div>div>a:visited {
     width: 260px;
     background: transparent;
     border: none;
-    border-radius:0;
+    border-radius: 0;
     line-height: 26px;
     height: 26px;
     margin-top: 40px;

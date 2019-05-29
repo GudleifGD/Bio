@@ -149,9 +149,9 @@ body {
 .scrolled > button > span > svg > rect {
   fill: #000;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1440px) {
   .navbar-brand {
-    margin-right: 0;
+    margin-right: 32px;
   }
   .navbar {
     padding: 15px !important;
@@ -311,17 +311,15 @@ body {
 .spec {
   padding: 19px;
 }
-.more {
+.more:link,
+.more:hover,
+.more:visited {
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #F6F6F6;
   min-height: 48px;
-}
-.more > a:link,
-.more > a:hover,
-.more > a:visited {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -331,6 +329,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.3em;
   position: relative;
+  transition: all ease-in 0.35s;
+  text-decoration: none;
+}
+.more:hover {
+  background: #DFDFDF;
 }
 .fix-right {
   padding-right: 0 !important;
