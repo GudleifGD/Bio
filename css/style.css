@@ -2000,7 +2000,6 @@ footer > div > div > div > div > a:visited {
   font-weight: 500;
   font-size: 16px;
   line-height: 160%;
-  /* or 26px */
   margin-top: 32px;
   color: #FFFFFF;
   width: 560px;
@@ -2013,7 +2012,7 @@ footer > div > div > div > div > a:visited {
   }
   .modal-content {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
   .question-modal {
     padding-left: 16px;
@@ -2088,5 +2087,8 @@ footer > div > div > div > div > a:visited {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     left: 45vw;
+  }
+  .navbar-modal {
+    height: 100vh;
   }
 }
