@@ -7,20 +7,20 @@ window.onscroll = function () {
     document.getElementById("navbar").className = "navbar navbar-expand-lg navbar-light fixed-top scrolled";
   }
 }
- 
-$(document).ready(function(){
-  $('.modal a').click(function(){
+
+$(document).ready(function () {
+  $('.modal a').click(function () {
     setTimeout(function () {
       $('.modal').modal('hide')
-    },300);
-    
+    }, 300);
+
   })
 
 })
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.gallery').slick({
-    arrows:false,
+    arrows: false,
     dots: true,
     infinite: true,
     speed: 300,
@@ -28,8 +28,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -60,16 +59,15 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.reviews-box').slick({
-    arrows:true,
+    arrows: true,
     dots: false,
     infinite: false,
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1284,
         settings: {
           slidesToShow: 1,
@@ -81,7 +79,7 @@ $(document).ready(function(){
       {
         breakpoint: 600,
         settings: {
-          arrows:false,
+          arrows: false,
           dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
@@ -90,7 +88,7 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
-          arrows:false,
+          arrows: false,
           dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
@@ -103,9 +101,24 @@ $(document).ready(function(){
   });
 });
 
-$(function(){
+$(function () {
   $("#phone").mask("+380 (99) 999 99 99");
 });
-$(function(){
+$(function () {
   $("#phone1").mask("+380 (99) 999 99 99");
 });
+
+
+$(document).ready(function () {
+      $("#form").submit(function () { //устанавливаем событие отправки для формы с id=form
+          var form_data = $(this).serialize(); //собераем все данные из формы
+          $.ajax({
+              type: "POST", //Метод отправки
+              url: "send.php", //путь до php фаила отправителя
+              data: form_data,
+              success: function () {
+                //код в этом блоке выполняется при успешной отправке сообщения
+                alert("Ваше сообщение отпрвлено!");}
+              });
+          });
+      });

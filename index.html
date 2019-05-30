@@ -1358,20 +1358,20 @@
                         <h2>Маєте питання <br> або хотіли б замовити?</h2>
                         <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
                             питання та допоможе оформити замовлення.</p>
-                        <form class="form forml">
+                        <form class="form forml" id="form">
                             <div>
-                                    <input type="text" id="name" placeholder="Ваше ім'я">
+                                    <input type="text" id="name" placeholder="Ваше ім'я" required="required">
                                     <label for="name">Ваше ім'я</label>
                             </div>
                             <div>
-                                    <input type="tel" id="phone" placeholder="Телефон" >
+                                    <input type="tel" id="phone" placeholder="Телефон" required="required">
                                     <label class="fixphone" for="phone">Телефон</label>
                             </div>
                             <div>
-                                    <input type="text" id="text" placeholder="Звернення або питання">
+                                    <input type="text" id="text" placeholder="Звернення або питання" required="required">
                                     <label for="text">Звернення або питання</label>
                             </div>
-                            <button>Надіслати</button>
+                            <button type="submit">Надіслати</button>
                         </form>
                     </div>
                     <div class="col-12 col-lg-5 que-right" id="que">
