@@ -673,6 +673,9 @@ body {
   margin-left: 28px;
 }
 @media screen and (max-width: 780px) {
+  html {
+    scroll-behavior: auto;
+  }
   #prosc {
     box-sizing: border-box;
     padding-top: 120px;

@@ -12,7 +12,7 @@ $(document).ready(function(){
   $('.modal a').click(function(){
     setTimeout(function () {
       $('.modal').modal('hide')
-    }, 1500);
+    },300);
     
   })
 
