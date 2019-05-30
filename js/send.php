@@ -16,4 +16,5 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST[
         $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
         mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
 }
+var_dump($_POST);
 ?>
