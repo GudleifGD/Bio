@@ -1,20 +1,69 @@
-<?
-if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST['phone']!="")){ //Проверка отправилось ли наше поля name и не пустые ли они
-        $to = 'glebdanilenko@gmail.com'; //Почта получателя, через запятую можно указать сколько угодно адресов
-        $subject = 'Обратный звонок'; //Загаловок сообщения
-        $message = '
-                <html>
-                    <head>
-                        <title>'.$subject.'</title>
-                    </head>
-                    <body>
-                        <p>Имя: '.$_POST['name'].'</p>
-                        <p>Телефон: '.$_POST['phone'].'</p>                        
-                    </body>
-                </html>'; //Текст нащего сообщения можно использовать HTML теги
-        $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-        $headers .= "From: Отправитель <from@example.com>\r\n"; //Наименование и почта отправителя
-        mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
-}
-var_dump($_POST);
+<?php
+
+	header("Content-Type: text/html; charset=utf-8");
+	
+	if(isset($_SERVER["HTTP_X_REQUESTED_WITH"]) && strtolower($_SERVER["HTTP_X_REQUESTED_WITH"]) === "xmlhttprequest") {
+	
+		if(!isset($_POST["name"]) || !isset($_POST["email"]) || !isset($_POST["message"])) {
+
+			die();
+
+		}
+	
+		function send_form($message) {
+	
+			$mail_to = "your_mail@mail.ru"; // Адрес, куда отправляем письма
+			$subject = "Письмо с обратной связи"; // Тема письма
+			$headers = "MIME-Version: 1.0\r\n";
+			$headers .= "Content-type: text/html; charset=utf-8\r\n";
+			$headers .= "From: Система уведомлений <no-reply@".$_SERVER['HTTP_HOST'].">\r\n";
+
+			mail($mail_to, $subject, $message, $headers);
+		
+		}
+
+		$name = strip_tags($_POST["name"]); // Имя
+		$email = strip_tags($_POST["email"]); // E-mail
+		$mess = strip_tags($_POST["message"]); // Сообщение
+
+		if(!preg_match("|^([a-z0-9_.-]{1,20})@([a-z0-9.-]{1,20}).([a-z]{2,4})|is", strtolower($email))) { // Если e-mail пустой или невалиден
+
+			echo "E-mail указан некорректно.";
+
+			die();
+
+		}
+
+		if($mess == "") { // Если сообщение пустое
+
+			echo "Не указан текст сообщения.";
+
+			die();
+
+		}
+
+		if($name == "") { // Если имя не указано
+
+			$name = "Не указано";
+
+		}
+
+		$message = <<<HTML
+
+			<b>Имя отправителя</b>: {$name}<br>
+			<b>E-mail</b>: {$email}<br><br>
+			<b>Текст письма</b>: {$mess}
+
+HTML;
+
+		send_form($message); // Если ранее описанных ошибок нет - отправляем сообщение
+		
+		echo "Сообщение успешно отправлено!";
+
+	} else {
+
+		die();
+
+	}
+
 ?>

@@ -10,9 +10,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
@@ -108,20 +108,20 @@
                         <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
                             питання та допоможе оформити замовлення.</p>
                         <form class="form forml">
-                                <div>
-                                        <input type="text" id="name1" placeholder="Ваше ім'я">
-                                        <label for="name1">Ваше ім'я</label>
-                                </div>
-                                <div>
-                                        <input type="tel" id="phone1" placeholder="Телефон" >
-                                        <label class="fixphone" for="phone">Телефон</label>
-                                </div>
-                                <div>
-                                        <input type="text" id="text1" placeholder="Звернення або питання">
-                                        <label for="text">Звернення або питання</label>
-                                </div>
-                                <button>Надіслати</button>
-                            </form>
+                            <div>
+                                <input type="text" id="name1" placeholder="Ваше ім'я">
+                                <label for="name1">Ваше ім'я</label>
+                            </div>
+                            <div>
+                                <input type="tel" id="phone1" placeholder="Телефон">
+                                <label class="fixphone" for="phone">Телефон</label>
+                            </div>
+                            <div>
+                                <input type="text" id="text1" placeholder="Звернення або питання">
+                                <label for="text">Звернення або питання</label>
+                            </div>
+                            <button>Надіслати</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -138,19 +138,19 @@
                 <div class="modal-body">
                     <div class="question-modal">
                         <h2>Отримайте повний прайс <br> та дізнайтесь всі умови</h2>
-                        <p>Заповніть цю форму і мы надішлемо на вашу адресу наш повний прайс. Вы зможете повністю
+                        <p>Заповніть цю форму і ми надішлемо на вашу адресу наш повний прайс. Вы зможете повністю
                             вивчити всі наші ціни та інші подробиці. Будете готові зробити замовлення — ми на зв’язку!
                         </p>
                         <form class="form">
-                                <div>
-                                        <input type="text" id="name2" placeholder="Ваше ім'я">
-                                        <label for="name2">Ваше ім'я</label>
-                                </div>
-                                <div>
-                                        <input type="email"  id="email" placeholder="Email">
-                                        <label for="email" class="fixphone">Email</label>
-                                </div>
-                            
+                            <div>
+                                <input type="text" id="name2" placeholder="Ваше ім'я">
+                                <label for="name2">Ваше ім'я</label>
+                            </div>
+                            <div>
+                                <input type="email" id="email" placeholder="Email">
+                                <label for="email" class="fixphone">Email</label>
+                            </div>
+
                             <button>Надіслати</button>
                         </form>
                     </div>
@@ -159,7 +159,7 @@
         </div>
     </div>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top" id="navbar">
             <a class="navbar-brand exbold" href="#home"><svg class="logo" width="177" height="48" viewBox="0 0 177 48"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -219,13 +219,13 @@
                         <a class="nav-link" href="#que">Контакти</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-navbar sbold d-flex d-lg-none" data-toggle="modal"
+                        <button class="btn btn-navbar sbold d-flex d-xl-none" data-toggle="modal"
                             data-target="#question">Замовити</button>
                     </li>
                 </ul>
             </div>
             <div class="d-none d-lg-flex">
-                <button class="btn btn-navbar sbold d-none d-lg-flex" data-toggle="modal"
+                <button class="btn btn-navbar sbold d-none d-xl-flex" data-toggle="modal"
                     data-target="#question">Замовити</button>
             </div>
         </nav>
@@ -1031,59 +1031,59 @@
                 </div>
             </div>
         </section>
-        <section  id="prosc">
+        <section id="prosc">
             <div class="prosc">
-                    <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5 prosc-title">
+                            <h2>Переваги <br> біопосуду Amelon</h2>
+                        </div>
+                        <div class="col-12 col-md-7">
                             <div class="row">
-                                <div class="col-12 col-md-5 prosc-title">
-                                    <h2>Переваги <br> біопосуду Amelon</h2>
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/1corn.svg" class="img-fluid" alt="corn">
+                                        <h5>Вироблено з <br> кукурудзяного <br> крохмалю</h5>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-md-7">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/1corn.svg" class="img-fluid" alt="corn">
-                                                <h5>Вироблено з <br> кукурудзяного <br> крохмалю</h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/microwave.svg" class="img-fluid" alt="microwave">
-                                                <h5>Можна гріти в <br> мікрохвильовці</h5>
-                                            </div>
-                                        </div>
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/microwave.svg" class="img-fluid" alt="microwave">
+                                        <h5>Можна гріти в <br> мікрохвильовці</h5>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/1eco.svg" class="img-fluid" alt="eco">
-                                                <h5>Безпечний для <br> людини та довкілля</h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/1freezer.svg" class="img-fluid" alt="freezer">
-                                                <h5>Можна заморожувати <br> до –20°C</h5>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/1eco.svg" class="img-fluid" alt="eco">
+                                        <h5>Безпечний для <br> людини та довкілля</h5>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/leaf.svg" class="img-fluid" alt="leaf">
-                                                <h5>В основі <br> біоматеріал</h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6 pros">
-                                            <div>
-                                                <img src="img/1coffee.svg" class="img-fluid" alt="corn">
-                                                <h5>Можна подавати <br> гарячі страви <br> та напої до +100°C</h5>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/1freezer.svg" class="img-fluid" alt="freezer">
+                                        <h5>Можна заморожувати <br> до –20°C</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/leaf.svg" class="img-fluid" alt="leaf">
+                                        <h5>В основі <br> біоматеріал</h5>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 pros">
+                                    <div>
+                                        <img src="img/1coffee.svg" class="img-fluid" alt="corn">
+                                        <h5>Можна подавати <br> гарячі страви <br> та напої до +100°C</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="targets">
@@ -1215,74 +1215,83 @@
             </div>
         </section>
         <section id="reviews">
-           <div class="reviews" >
+            <div class="reviews">
                 <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="reviews-title">
-                                    Відгуки
-                                </h2>
-                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="reviews-title">
+                                Відгуки
+                            </h2>
                         </div>
                     </div>
-                    <div class="reviews-box">
-                        <div>
-                            <div class="review">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        
-                                </p>
+                </div>
+                <div class="reviews-box">
+                    <div>
+                        <div class="review">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                            </p>
+                            <div>
+                                <img src="img/photo.png" alt="/">
                                 <div>
-                                    <img src="img/photo.png" alt="/">
-                                    <div>
-                                        <p>Имя Фaмилия</p>
-                                        <p> 27 лет, Днепр</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="review sec ">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                                <div>
-                                    <img src="img/photo.png" alt="/">
-                                    <div>
-                                        <p>Имя Фамилия</p>
-                                        <p> 27 лет, Днепр</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="review sec ">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                                <div>
-                                    <img src="img/photo.png" alt="/">
-                                    <div>
-                                        <p>Имя Фамилия</p>
-                                        <p> 27 лет, Днепр</p>
-                                    </div>
+                                    <p>Имя Фaмилия</p>
+                                    <p> 27 лет, Днепр</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-           </div>
+                    <div>
+                        <div class="review sec ">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <div>
+                                <img src="img/photo.png" alt="/">
+                                <div>
+                                    <p>Имя Фамилия</p>
+                                    <p> 27 лет, Днепр</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review sec ">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <div>
+                                <img src="img/photo.png" alt="/">
+                                <div>
+                                    <p>Имя Фамилия</p>
+                                    <p> 27 лет, Днепр</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <div class="container">
@@ -1351,28 +1360,39 @@
                 </div>
             </div>
         </section>
-        <section class="que" >
+        <section class="que">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-7 que-left">
                         <h2>Маєте питання <br> або хотіли б замовити?</h2>
                         <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
                             питання та допоможе оформити замовлення.</p>
-                        <form class="form forml" id="form" method="POST">
-                            <div>
+                        <!--  <form class="form forml" id="form" >
+                            
                                     <input type="text" id="name" placeholder="Ваше ім'я" required="required">
                                     <label for="name">Ваше ім'я</label>
-                            </div>
-                            <div>
+                            
+                            
                                     <input type="tel" id="phone" placeholder="Телефон" required="required">
                                     <label class="fixphone" for="phone">Телефон</label>
-                            </div>
-                            <div>
+                           
                                     <input type="text" id="text" placeholder="Звернення або питання" required="required">
                                     <label for="text">Звернення або питання</label>
-                            </div>
+                            
                             <button type="submit">Надіслати</button>
-                        </form>
+                        </form> -->
+                        <div>Ваше Имя:</div>
+                        <input type="text" name="name" id="name" value="" />
+
+                        <div>Ваш E-mail <span>*</span>:</div>
+                        <input type="text" name="email" id="email1" value="" />
+
+                        <div>Сообщение <span>*</span>:</div>
+                        <textarea name="message" id="message"></textarea>
+
+                        <div class="result"></div>
+
+                        <a href="javascript: void(0);" id="submit">Отправить</a>
                     </div>
                     <div class="col-12 col-lg-5 que-right" id="que">
                         <h4>
@@ -1382,8 +1402,10 @@
                         <a href="tel:+380(67)4572356">+380 (67) 457 23 56</a>
                         <a href="mailto:sales@bioposud.com.ua">sales@bioposud.com.ua</a>
                         <div class="social">
-                            <a href="https://www.instagram.com/amelonbioposud/" role="button" target="_blank"><img src="img/insta.svg" alt="insta"></a>
-                            <a href="https://www.facebook.com/amelonbio/" role="button" target="_blank"><img src="img/fb.svg" alt="fb"></a>
+                            <a href="https://www.instagram.com/amelonbioposud/" role="button" target="_blank"><img
+                                    src="img/insta.svg" alt="insta"></a>
+                            <a href="https://www.facebook.com/amelonbio/" role="button" target="_blank"><img
+                                    src="img/fb.svg" alt="fb"></a>
                         </div>
                     </div>
                 </div>

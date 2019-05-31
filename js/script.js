@@ -109,16 +109,45 @@ $(function () {
 });
 
 
+/* Article FructCode.com */
 $(document).ready(function () {
-      $("#form").submit(function () { //устанавливаем событие отправки для формы с id=form
-          var form_data = $(this).serialize(); //собераем все данные из формы
-          $.ajax({
-              type: "POST", //Метод отправки
-              url: "send.php", //путь до php фаила отправителя
-              data: form_data,
-              success: function () {
-                //код в этом блоке выполняется при успешной отправке сообщения
-                alert("Ваше сообщение отпрвлено!");}
-              });
-          });
+  $("#btn").click(
+    function () {
+      sendAjaxForm('result_form', 'ajax_form', 'action_ajax_form.php');
+      return false;
+    }
+  );
+});
+
+
+  $(document).ready(function () {
+
+    $("#submit").on("click", function () {
+
+      var name = $("#name").val(); // Получаем имя
+      var email = $("#email1").val(); // Получаем e-mail
+      var message = $("#message").val(); // Получаем сообщение
+
+      $.ajax({
+
+        url: "js/send.php", // Куда отправляем данные (обработчик)
+        type: "post",
+
+        data: {
+          "name": name,
+          "email": email,
+          "message": message
+        },
+
+        success: function (data) {
+
+          $(".result").html(data); // Выводим результат
+
+        }
+
       });
+
+    });
+
+  });
+
