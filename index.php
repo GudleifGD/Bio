@@ -107,20 +107,21 @@
                         <h2>Маєте питання <br> або хотіли б замовити?</h2>
                         <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
                             питання та допоможе оформити замовлення.</p>
-                        <form class="form forml">
+                        <form class="form forml" id="form1" action="">
                             <div>
-                                <input type="text" id="name1" placeholder="Ваше ім'я">
+                                <input type="text" id="name1" name="name" value="" placeholder="Ваше ім'я">
                                 <label for="name1">Ваше ім'я</label>
                             </div>
                             <div>
-                                <input type="tel" id="phone1" placeholder="Телефон">
+                                <input type="tel" id="phone1" name="phone" value="" placeholder="Телефон">
                                 <label class="fixphone" for="phone">Телефон</label>
                             </div>
                             <div>
-                                <input type="text" id="text1" placeholder="Звернення або питання">
+                                <input type="text" id="text1" name="message" id="text"
+                                    placeholder="Звернення або питання">
                                 <label for="text">Звернення або питання</label>
                             </div>
-                            <button>Надіслати</button>
+                            <button type="submit" name="submit">Надіслати</button>
                         </form>
                     </div>
                 </div>
@@ -141,18 +142,55 @@
                         <p>Заповніть цю форму і ми надішлемо на вашу адресу наш повний прайс. Вы зможете повністю
                             вивчити всі наші ціни та інші подробиці. Будете готові зробити замовлення — ми на зв’язку!
                         </p>
-                        <form class="form">
+                        <form class="form" id="form2" action="">
                             <div>
-                                <input type="text" id="name2" placeholder="Ваше ім'я">
+                                <input type="text" id="name2" name="name" value="" placeholder="Ваше ім'я">
                                 <label for="name2">Ваше ім'я</label>
                             </div>
                             <div>
-                                <input type="email" id="email" placeholder="Email">
+                                <input type="email" id="email" name="email" value="" placeholder="Email">
                                 <label for="email" class="fixphone">Email</label>
                             </div>
 
-                            <button>Надіслати</button>
+                            <button type="submit" name="submit">Надіслати</button>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="sps" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="img/close.svg" alt="close"></span>
+                    </button>
+                </div>
+                <div class="modal-body sps">
+                    <div class="question-modal ">
+                        <h2>Дякуємо! Зателефонуємо якнайшвидше.</h2>
+                        <button type="button" class="sps-btn" data-dismiss="modal" aria-label="Close">На
+                            головну</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="sps1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="img/close.svg" alt="close"></span>
+                    </button>
+                </div>
+                <div class="modal-body sps">
+                    <div class="question-modal ">
+                        <h2>Ми надіслали прайс на вашу пошту.</h2>
+                        <p>Якщо лист не надійшов через декілька хвилин перевірте теку «Спам»</p>
+                        <button type="button" class="sps-btn" data-dismiss="modal" aria-label="Close">На
+                            головну</button>
                     </div>
                 </div>
             </div>
@@ -1367,32 +1405,26 @@
                         <h2>Маєте питання <br> або хотіли б замовити?</h2>
                         <p>Заповніть цю форму, наш консультант вам зателефонує найближчим часом. Взалюбки відповість на
                             питання та допоможе оформити замовлення.</p>
-                        <!--  <form class="form forml" id="form" >
-                            
-                                    <input type="text" id="name" placeholder="Ваше ім'я" required="required">
-                                    <label for="name">Ваше ім'я</label>
-                            
-                            
-                                    <input type="tel" id="phone" placeholder="Телефон" required="required">
-                                    <label class="fixphone" for="phone">Телефон</label>
-                           
-                                    <input type="text" id="text" placeholder="Звернення або питання" required="required">
-                                    <label for="text">Звернення або питання</label>
-                            
-                            <button type="submit">Надіслати</button>
-                        </form> -->
-                        <div>Ваше Имя:</div>
-                        <input type="text" name="name" id="name" value="" />
+                        <form class="form forml" id="form" action="">
 
-                        <div>Ваш E-mail <span>*</span>:</div>
-                        <input type="text" name="email" id="email1" value="" />
+                            <div>
+                                <input type="text" id="name" name="name" value="" placeholder="Ваше ім'я"
+                                    required="required">
+                                <label for="name">Ваше ім'я</label>
+                            </div>
 
-                        <div>Сообщение <span>*</span>:</div>
-                        <textarea name="message" id="message"></textarea>
+                            <div>
+                                <input type="tel" name="tel" id="phone" value="" placeholder="Телефон"
+                                    required="required">
+                                <label class="fixphone" for="phone">Телефон</label></div>
 
-                        <div class="result"></div>
+                            <div>
+                                <input type="text" name="message" id="text" placeholder="Звернення або питання"
+                                    required="required">
+                                <label for="text">Звернення або питання</label></div>
 
-                        <a href="javascript: void(0);" id="submit">Отправить</a>
+                            <button type="submit" name="submit">Надіслати</button>
+                        </form>
                     </div>
                     <div class="col-12 col-lg-5 que-right" id="que">
                         <h4>

@@ -109,45 +109,59 @@ $(function () {
 });
 
 
-/* Article FructCode.com */
-$(document).ready(function () {
-  $("#btn").click(
-    function () {
-      sendAjaxForm('result_form', 'ajax_form', 'action_ajax_form.php');
-      return false;
-    }
-  );
-});
 
+jQuery(document).ready(function ($) {
 
-  $(document).ready(function () {
+  $("#form").submit(function () {
+    var str = $(this).serialize();
 
-    $("#submit").on("click", function () {
-
-      var name = $("#name").val(); // Получаем имя
-      var email = $("#email1").val(); // Получаем e-mail
-      var message = $("#message").val(); // Получаем сообщение
-
-      $.ajax({
-
-        url: "js/send.php", // Куда отправляем данные (обработчик)
-        type: "post",
-
-        data: {
-          "name": name,
-          "email": email,
-          "message": message
-        },
-
-        success: function (data) {
-
-          $(".result").html(data); // Выводим результат
-
-        }
-
-      });
-
+    $.ajax({
+      type: "POST",
+      url: "contact.php",
+      data: str,
+      success: function () {
+        console.log('1');
+        $('#sps').modal('show')
+      }
     });
-
+    return false;
   });
+});
+jQuery(document).ready(function ($) {
 
+  $("#form1").submit(function () {
+    var str = $(this).serialize();
+
+    $.ajax({
+      type: "POST",
+      url: "contact.php",
+      data: str,
+      success: function () {
+        console.log('1');
+        $('#question').modal('hide')
+
+        $('#sps').modal('show')
+      }
+    });
+    return false;
+  });
+});
+jQuery(document).ready(function ($) {
+
+  $("#form2").submit(function () {
+    var str = $(this).serialize();
+    console.log('1');
+    $.ajax({
+      type: "POST",
+      url: "contacte.php",
+      data: str,
+      success: function () {
+        console.log('1');
+        $('#price').modal('hide')
+
+        $('#sps1').modal('show')
+      }
+    });
+    return false;
+  });
+});
