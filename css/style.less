@@ -368,7 +368,7 @@ body {
 
 .more:link,
 .more:hover,
-.more:visited{
+.more:visited {
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -440,7 +440,7 @@ body {
 
     .right>div>img {
         position: relative !important;
-        width: 287px !important;
+        width: 287px;
         background-image: url(../img/Zerom.svg);
         padding-top: 20px;
         background-repeat: no-repeat;
@@ -475,7 +475,7 @@ body {
         padding-left: 0 !important;
     }
 
-    .more:link{
+    .more:link {
         .sbold;
         font-size: 16px;
         line-height: 146.28%;
@@ -720,13 +720,15 @@ body {
         line-height: 17px;
     }
 }
+
 #prosc {
     box-sizing: border-box;
     padding-top: 240px;
 }
+
 .prosc {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.0) 30%, #E2E0CB 30%);
-    
+
     padding-top: 80px;
     padding-bottom: 64px;
 }
@@ -770,10 +772,12 @@ body {
     html {
         scroll-behavior: auto;
     }
+
     #prosc {
         box-sizing: border-box;
         padding-top: 120px;
     }
+
     .prosc {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 5%, #E2E0CB 5%);
         padding-top: 0px;
@@ -1133,9 +1137,7 @@ body {
     position: relative;
 }
 
-.payment-left>.row {
-    background: linear-gradient(to bottom, #fff 5%, rgba(0, 0, 0, 0.0) 5%);
-}
+
 
 .payment-left>div>div>h2 {
     .bold;
@@ -1410,7 +1412,7 @@ body {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.0) 27%, #E2E0CB 27%);
     min-height: 680px;
     overflow-x: hidden;
-    
+
 }
 
 .reviews-title {
@@ -1484,6 +1486,7 @@ body {
         box-sizing: content-box;
         padding-top: 120px;
     }
+
     .reviews {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 27%, #E2E0CB 27%);
         min-height: 560px;
@@ -1640,8 +1643,8 @@ body {
 .gallery-img {}
 
 .gallery-img>img {
-    width: 288px;
-    height: 288px;
+    width: 100%;
+    height: auto;
     padding: 20px;
 }
 
@@ -1741,7 +1744,7 @@ body {
     background-color: #8EB16A !important;
 }
 
-@media screen and (max-width:778px) {
+@media screen and (max-width:767px) {
     .gallery {
         justify-content: center;
     }
@@ -1759,6 +1762,12 @@ body {
         content: url(../img/line.svg);
         top: -5px;
         left: -70px;
+    }
+
+    .gallery-img>img {
+        width: 100vw;
+        height: auto;
+        padding: 20px;
     }
 }
 
@@ -1889,6 +1898,7 @@ label {
 .form>div>input[type='tel'] {
     margin-left: 35px;
 }
+
 .form>div>input[type='email'] {
     margin-left: 35px;
 }
@@ -2059,6 +2069,7 @@ label {
     .form>div>input:last-of-type {
         width: 100%;
     }
+
     .form>div>input[type='email'] {
         margin-left: 0px;
     }
@@ -2343,18 +2354,19 @@ footer>div>div>div>div>a:visited {
         border: none;
         left: 45vw;
     }
+
     .navbar-modal {
         height: 100vh;
     }
 }
+
 .sps {
     display: flex;
     align-items: center;
     margin-bottom: 60px;
 }
 
-.sps-btn
-{
+.sps-btn {
     .bold;
     font-size: 18px;
     line-height: 22px;
@@ -2382,4 +2394,154 @@ footer>div>div>div>div>a:visited {
 
 #form1>div:last-of-type>input {
     width: 100%;
+}
+
+@media screen and (max-width:778px) {
+    #sps>div>div {
+        height: 100vh;
+    }
+}
+
+@media (min-width:991px) and (max-width:1275px) {
+    .navbar-nav {
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+    }
+
+    .navbar-brand>svg {
+        margin-right: 0;
+        height: 40px;
+        width: auto;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        height: 40px;
+        width: auto;
+    }
+    .logo {
+        background: none;
+    }
+
+    .btn-navbar {
+        width: 150px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .price-row>img {
+        left: 10px;
+    }
+
+    .payment-left>div>div>div {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .payment-right>div {
+        margin-left: 0;
+    }
+
+    .sert-block>img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
+    }
+
+    .target {
+        width: 328px;
+        height: 328px;
+    }
+
+    .target>img {
+        width: 328px;
+        height: 328px;
+    }
+
+    .navbar-brand {
+        height: 48px;
+        width: auto;
+    }
+
+    .right>div>img {
+        position: absolute;
+        width: 420px;
+        height: auto;
+        bottom: 14vh;
+        background-image: url(../img/Zero.svg);
+        padding-top: 110px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+
+    .target {
+        width: 298px;
+        height: 298px;
+    }
+
+    .target>img {
+        width: 298px;
+        height: 298px;
+    }
+
+    .price-row>img {
+        display: none;
+    }
+   
+}
+
+@media (min-width:669px) and (max-width:770px) {
+
+   
+    .right>div>img {
+        position: absolute;
+        width: 520px;
+        height: auto;
+        bottom: 0;
+        background-image: url(../img/Zero.svg);
+        padding-top: 110px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.image {
+
+    cursor: pointer;
+
+}
+
+.popup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_bg {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    ;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.popup_img {
+    position: relative;
+    margin: 0;
+    z-index: 2;
+    max-height: 94%;
+    max-width: 94%;
 }
