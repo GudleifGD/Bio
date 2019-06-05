@@ -67,7 +67,18 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
-    responsive: [{
+    autoplay: true,
+    autoplaySpeed: 6000,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },{
         breakpoint: 1284,
         settings: {
           slidesToShow: 1,

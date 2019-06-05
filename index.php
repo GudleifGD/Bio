@@ -109,11 +109,13 @@
                             питання та допоможе оформити замовлення.</p>
                         <form class="form forml" id="form1" action="">
                             <div>
-                                <input type="text" id="name1" name="name" value="" placeholder="Ваше ім'я" required="required">
+                                <input type="text" id="name1" name="name" value="" placeholder="Ваше ім'я"
+                                    required="required">
                                 <label for="name1">Ваше ім'я</label>
                             </div>
                             <div>
-                                <input type="tel" id="phone1" name="phone" value="" placeholder="Телефон" required="required">
+                                <input type="tel" id="phone1" name="tel" value="" placeholder="Телефон"
+                                    required="required">
                                 <label class="fixphone" for="phone">Телефон</label>
                             </div>
                             <div>
@@ -144,11 +146,13 @@
                         </p>
                         <form class="form" id="form2" action="">
                             <div>
-                                <input type="text" id="name2" name="name" value="" placeholder="Ваше ім'я" required="required">
+                                <input type="text" id="name2" name="name" value="" placeholder="Ваше ім'я"
+                                    required="required">
                                 <label for="name2">Ваше ім'я</label>
                             </div>
                             <div>
-                                <input type="email" id="email" name="email" value="" placeholder="Email" required="required">
+                                <input type="email" id="email" name="email" value="" placeholder="Email"
+                                    required="required">
                                 <label for="email" class="fixphone">Email</label>
                             </div>
 
@@ -406,14 +410,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h28мм
+                                                    Стакан 170мл
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000115</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/glass.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 75х68</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -421,14 +425,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Стакан 200мл
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000116</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/glass1.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 80х75</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -436,14 +440,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Стакан 250мл
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000117</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/glass2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 100х75</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -451,14 +455,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Вставка в чашку
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>001208</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/glass3.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 100х75</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -466,29 +470,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Утримувач для чашки
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000107</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/glass4.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 75х75</p>
+                                                <p>60 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -500,14 +489,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Лоток двосекційний
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000325</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cont.png" alt="tarelka">
                                             <div class="product-bottom">
                                                 <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>150 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -515,14 +504,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Лоток трисекційний
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000326</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cont1.png" alt="tarelka">
                                             <div class="product-bottom">
                                                 <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>150 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -530,14 +519,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Контейнер 800мл(ф.кр.)
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000225</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cont2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 220х170х45</p>
+                                                <p>100 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -545,47 +534,18 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Контейнер 1200мл(Ф.кр.)
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000219 </Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cont3.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 220х170х63</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
@@ -594,14 +554,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Ланч-бокс односекційний
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000218</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/lanch.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 220х150х50</p>
+                                                <p>100 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -609,77 +569,18 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Ланч-бокс двосекційний
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000221</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/lanch1.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 260х150х45</p>
+                                                <p>100 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
@@ -688,13 +589,28 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Розетка 350мл
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000401 </Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/salad.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 125х50</p>
+                                                <p>300 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Соусниця 200мл ø105мм
+                                                </h3>
+                                                <p>Код товару <Span>000409</Span> </p>
+                                            </div>
+                                            <img src="img/products/salad1.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 105х30</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -703,13 +619,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Салатниця 280мл ø105мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000407</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/salad2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 105х44</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -718,13 +634,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Салатниця 400мл ø125мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000406</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/salad3.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 125х42</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -733,13 +649,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Салатниця 550мл ø125мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000405</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/salad4.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 125х60</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -748,13 +664,103 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Ведерце 800мл ø125мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>001433</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/salad5.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 125х95</p>
+                                                <p>150 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 justify-content-center">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Салатница 900мл квадр.
+                                                </h3>
+                                                <p>Код товару <Span>000402 </Span> </p>
+                                            </div>
+                                            <img src="img/products/salad6.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 150х150х63</p>
+                                                <p>100 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Супниця 1000мл ø175мм(гл.)
+                                                </h3>
+                                                <p>Код товару <Span>000434</Span> </p>
+                                            </div>
+                                            <img src="img/products/soup.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 175х75</p>
+                                                <p>150 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Супницям 1000мл ø175мм
+                                                </h3>
+                                                <p>Код товару <Span>001420</Span> </p>
+                                            </div>
+                                            <img src="img/products/soup1.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 175х65</p>
+                                                <p>150 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Кришка ø105мм
+                                                </h3>
+                                                <p>Код товару <Span>000604</Span> </p>
+                                            </div>
+                                            <img src="img/products/soup2.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 105х10</p>
+                                                <p>400 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Кришка ø125мм
+                                                </h3>
+                                                <p>Код товару <Span>000606</Span> </p>
+                                            </div>
+                                            <img src="img/products/soup3.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 125х10</p>
+                                                <p>400 шт/уп</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Кришка ø175мм
+                                                </h3>
+                                                <p>Код товару <Span>000629 </Span> </p>
+                                            </div>
+                                            <img src="img/products/soup4.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>Габарити (мм): 175х10</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -763,13 +769,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Кришка квадратна
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000527</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/soup5.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 150х150х20</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -784,11 +790,11 @@
                                                 <h3>
                                                     Тарілка h30мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000530</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/plate.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 205х30</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -797,13 +803,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Тарілка h20мм
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000531</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/plate1.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 205х20</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -812,62 +818,18 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Блюдо
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000215 </Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/plate2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 320х215х32</p>
+                                                <p>100 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="cutlery" role="tabpanel" aria-labelledby="cutlery-tab">
@@ -876,13 +838,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Ложка
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000810</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cult.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 165</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -891,13 +853,13 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Веделка
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000911 </Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cult1.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
+                                                <p>Габарити (мм): 170</p>
                                                 <p>200 шт/уп</p>
                                             </div>
                                         </div>
@@ -906,14 +868,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Ніж
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>001012</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cult2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 162</p>
+                                                <p>400 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -921,44 +883,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Чайна ложка
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000832 </Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/cult3.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
-                                        <div class="product">
-                                            <div class="product-title">
-                                                <h3>
-                                                    Тарілка h30мм
-                                                </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
-                                            </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
-                                            <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Габарити (мм): 118</p>
+                                                <p>500 шт/уп</p>
                                             </div>
                                         </div>
                                     </div>
@@ -970,14 +902,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набiр утримувачів і чашок
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>008924</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>2 утримувача і 24 чашки</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -985,14 +917,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набір cтаканів
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>007012</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set1.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>200мл, 12 шт</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1000,14 +932,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набір ланч боксів
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>000218</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set2.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Односекціонн, глибокі, 6шт</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1015,14 +947,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набір лотків прямокутних
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>007312</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set3.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>12 шт</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1030,14 +962,14 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набір лотків двосекційних
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>007412</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set4.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>Глибокі, 12 шт</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1045,14 +977,224 @@
                                         <div class="product">
                                             <div class="product-title">
                                                 <h3>
-                                                    Тарілка h30мм
+                                                    Набір лотків двосекційних
                                                 </h3>
-                                                <p>Код товару <Span>00530</Span> </p>
+                                                <p>Код товару <Span>001206</Span> </p>
                                             </div>
-                                            <img src="img/tarelka.png" alt="tarelka">
+                                            <img src="img/products/set5.png" alt="tarelka">
                                             <div class="product-bottom">
-                                                <p>Габарити (мм): 270х190х35</p>
-                                                <p>200 шт/уп</p>
+                                                <p>6 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 justify-content-center">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір лотків трисекційних
+                                                </h3>
+                                                <p>Код товару <Span>001306</Span> </p>
+                                            </div>
+                                            <img src="img/products/set6.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>6 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір лотків квадратних
+                                                </h3>
+                                                <p>Код товару <Span>007612</Span> </p>
+                                            </div>
+                                            <img src="img/products/set7.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>900мл, с кришкою, 12шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір супниць
+                                                </h3>
+                                                <p>Код товару <Span>000434</Span> </p>
+                                            </div>
+                                            <img src="img/products/set8.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>1000мл, ø125мм, глибокі, 6шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір розеток
+                                                </h3>
+                                                <p>Код товару <Span>007512</Span> </p>
+                                            </div>
+                                            <img src="img/products/set9.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>350мл, ø125мм, 12шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір салатниць
+                                                </h3>
+                                                <p>Код товару <Span>008612</Span> </p>
+                                            </div>
+                                            <img src="img/products/set10.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>300мл, ø105мм, с кришками, 12шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір салатниць
+                                                </h3>
+                                                <p>Код товару <Span>008706</Span> </p>
+                                            </div>
+                                            <img src="img/products/set11.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>550мл, ø125мм, с кришками, 6шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 justify-content-center">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір відерець
+                                                </h3>
+                                                <p>Код товару <Span>001006</Span> </p>
+                                            </div>
+                                            <img src="img/products/set12.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>1000мл, ø125мм, глибокі, 6шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір тарілок
+                                                </h3>
+                                                <p>Код товару <Span>007712</Span> </p>
+                                            </div>
+                                            <img src="img/products/set13.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір тарілок для фруктів
+                                                </h3>
+                                                <p>Код товару <Span>007812</Span> </p>
+                                            </div>
+                                            <img src="img/products/set14.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір блюд овальних
+                                                </h3>
+                                                <p>Код товару <Span>000215</Span> </p>
+                                            </div>
+                                            <img src="img/products/set15.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>6 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір ложок
+                                                </h3>
+                                                <p>Код товару <Span>007912</Span> </p>
+                                            </div>
+                                            <img src="img/products/set16.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір вилок
+                                                </h3>
+                                                <p>Код товару <Span>008012</Span> </p>
+                                            </div>
+                                            <img src="img/products/set17.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір вилка та ніж
+                                                </h3>
+                                                <p>Код товару <Span>008412</Span> </p>
+                                            </div>
+                                            <img src="img/products/set18.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="product">
+                                            <div class="product-title">
+                                                <h3>
+                                                    Набір ножів
+                                                </h3>
+                                                <p>Код товару <Span>008112</Span> </p>
+                                            </div>
+                                            <img src="img/products/set19.png" alt="tarelka">
+                                            <div class="product-bottom">
+                                                <p>12 шт</p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1178,7 +1320,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 payment-left ">
                         <div class="row">
-                            <div class="col-12 col-md-12  col-lg-12 col-lg-9 offset-xl-3">
+                            <div class="col-12 col-md-12  col-lg-12 col-xl-9 offset-xl-3">
                                 <h2>Оплата <br> та доставка</h2>
                                 <div>
                                     <img src="img/business.svg" alt="/">
@@ -1267,21 +1409,14 @@
                     <div>
                         <div class="review">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Красивий і зручний посуд, а до того ж ще біорозкладаний! Тепер ми з друзями можемо
+                                робити звичні речі і бути причетними до боротьби за екологію.
 
                             </p>
                             <div>
-                                <img src="img/photo.png" alt="/">
                                 <div>
-                                    <p>Имя Фaмилия</p>
-                                    <p> 27 лет, Днепр</p>
+                                    <p>Данило</p>
+                                    <p> Київ</p>
                                 </div>
                             </div>
                         </div>
@@ -1289,20 +1424,14 @@
                     <div>
                         <div class="review sec ">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Для нашої компанії було принципово важливо забезпечити комфорт працівників із найменшим
+                                впливом на природу. Я радий, що в Україні знайшовся такий бренд, як AMELON. Якість
+                                матеріалу — на висоті, сервіс — швидкий та налагоджений. Рекомендую!
                             </p>
                             <div>
-                                <img src="img/photo.png" alt="/">
                                 <div>
-                                    <p>Имя Фамилия</p>
-                                    <p> 27 лет, Днепр</p>
+                                    <p>Олексій</p>
+                                    <p> Дніпро</p>
                                 </div>
                             </div>
                         </div>
@@ -1310,20 +1439,15 @@
                     <div>
                         <div class="review sec ">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Дуже порадував сервіс! Асортимент дійсно великий. Людині, яка не в темі, важко
+                                розібратись. Але консультанти AMELON допомогли підібрати потрібні набори, все пояснили
+                                :) Швидкість обробки замовлення теж приємно здивувала. Я задоволена, рекомендуватиму
+                                знайомим!
                             </p>
                             <div>
-                                <img src="img/photo.png" alt="/">
                                 <div>
-                                    <p>Имя Фамилия</p>
-                                    <p> 27 лет, Днепр</p>
+                                    <p>Ольга</p>
+                                    <p> Запоріжжя</p>
                                 </div>
                             </div>
                         </div>
@@ -1339,28 +1463,28 @@
                     </div>
 
                     <div class="col-12 col-lg-3 sert-block ">
-                        <img src="img/sert1.png" class="image" alt="sert">
+                        <img src="img/sert1.jpg" class="image" alt="sert">
                         <h4>
-                            Сертификат <br> такой-то
+                                Висновок <br> ДСЕС
                         </h4>
                     </div>
                     <div class="col-12 col-lg-3 sert-block ">
-                        <img src="img/sert2.png" class="image" alt="sert">
+                        <img src="img/sert2.jpg" class="image" alt="sert">
                         <h4>
-                            Сертификат австрийского <br> центра такой-то
+                                Сертифікат TUV Austria <br> OK-Biobased
                         </h4>
                     </div>
-                    <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
+                    <div class="col-12 col-lg-3 sert-block ">
 
-                        <img src="img/sert1.png" class="image" alt="sert">
+                        <img src="img/sert3.jpg" class="image" alt="sert">
                         <h4>
-                            Сертификат <br> такой-то
+                                Гігієничний <br> висновок
                         </h4>
                     </div>
-                    <div class="col-12 col-lg-3 sert-block d-none d-lg-block">
-                        <img src="img/sert2.png" class="image" alt="sert">
+                    <div class="col-12 col-lg-3 sert-block ">
+                        <img src="img/sert4.jpg" class="image" alt="sert">
                         <h4>
-                            Сертификат австрийского <br> центра такой-то
+                                Висновок лабораторних <br> випробувань
                         </h4>
                     </div>
                 </div>
@@ -1449,10 +1573,6 @@
             <div class="row">
                 <div class="col">
                     <p>© 2019, Всі права захищено</p>
-                    <div>
-                        <a href="#">Політика конфіденційності</a>
-                        <a href="#"> Публічна оферта</a>
-                    </div>
                 </div>
             </div>
         </div>

@@ -184,16 +184,6 @@ body {
         width: 100vw;
     }
 
-    .right>div>img {
-        position: absolute;
-        width: 287px;
-        height: auto;
-        bottom: 14vh;
-        background-image: url(../img/Zero.svg);
-        padding-top: 210px;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
 }
 
 @media screen and (max-width:778px) {
@@ -486,7 +476,6 @@ body {
     }
 }
 
-.products {}
 
 .products-title>h2 {
     .bold;
@@ -567,7 +556,7 @@ body {
     line-height: 26px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.0em;
     text-transform: uppercase;
     color: #212121;
 }
@@ -1443,12 +1432,18 @@ body {
 }
 
 .review {
+    
     height: 344px;
     width: 560px;
     background: #FFFFFF;
     padding: 48px;
     margin-right: 40px;
     border: 1px solid #E2E0CB;
+}
+
+.review>p {
+    .med;
+   min-height: 176px;
 }
 
 .review>div {
@@ -1460,7 +1455,7 @@ body {
     width: 400px;
     height: 24px;
     margin: 0;
-    padding-left: 16px;
+    padding-left: 0px;
     .sbold;
     font-size: 14px;
     line-height: 160%;
@@ -1640,7 +1635,6 @@ body {
     padding: 0;
 }
 
-.gallery-img {}
 
 .gallery-img>img {
     width: 100%;
@@ -2125,7 +2119,7 @@ footer {
 
 footer>div>div>div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 80px;
 }
@@ -2402,6 +2396,8 @@ footer>div>div>div>div>a:visited {
     }
 }
 
+
+
 @media (min-width:991px) and (max-width:1275px) {
     .navbar-nav {
         font-size: 12px;
@@ -2475,7 +2471,7 @@ footer>div>div>div>div>a:visited {
     }
 }
 
-@media (min-width:769px) and (max-width:991px) {
+@media  screen and (min-width:769px) and (max-width:991px) {
 
     .target {
         width: 298px;
@@ -2493,7 +2489,7 @@ footer>div>div>div>div>a:visited {
    
 }
 
-@media (min-width:669px) and (max-width:770px) {
+@media  screen and (min-width:669px) and (max-width:770px) {
 
    
     .right>div>img {
@@ -2530,7 +2526,7 @@ footer>div>div>div>div>a:visited {
 .popup_bg {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    ;
+   
     z-index: 1;
     height: 100%;
     width: 100%;
@@ -2539,9 +2535,19 @@ footer>div>div>div>div>a:visited {
 
 
 .popup_img {
+    top: 50px;
     position: relative;
     margin: 0;
     z-index: 2;
-    max-height: 94%;
-    max-width: 94%;
+    max-height: 89%;
+    max-width: 89%;
+}
+
+@media  screen and (min-width:1276px) and (max-width:1680px){
+    .right>div>img {
+        width: 475px;
+        height: auto;
+        bottom: 12vh;
+        padding-top: 110px;
+    }
 }

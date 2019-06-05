@@ -21,18 +21,18 @@ $error .= 'Пожалуйста введите ваше имя<br />';
 
 $name_tema = "=?utf-8?b?". base64_encode($name) ."?=";
 
-$subject ="From bioposud.com.ua";
+$subject ="Новая заявка на сайте bioposud.com.ua";
 $subject1 = "=?utf-8?b?". base64_encode($subject) ."?=";
 /* 
 $message ="\n\nСообщение: ".$message."\n\nИмя: " .$name."\n\nТелефон: ".$tel."\n\n"; */
 
-$message1 ="\n\nИмя: ".$name."\n\nE-mail: " .$tel."\n\nСообщение: ".$message."\n\n";	
+$message1 ="\n\nИмя: ".$name."\n\nНомер телефона: " .$tel."\n\nСообщение: ".$message."\n\n";	
 
 
 $header = "Content-Type: text/plain; charset=utf-8\n";
 
-$header .= "From: Новая заявка <glebdanilenko@gmail.com>\n\n";	
-$mail = mail("glebdanilenko@gmail.com", $subject, iconv ('utf-8', 'windows-1251', $message1), iconv ('utf-8', 'windows-1251', $header));
+$header .= "From: Новая заявка <bioposud.com.ua>\n\n";	
+$mail = mail("y685920@nwytg.net", $subject, iconv ('utf-8', 'windows-1251', $message1), iconv ('utf-8', 'windows-1251', $header));
 
 if($mail)
 {

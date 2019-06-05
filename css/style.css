@@ -157,16 +157,6 @@ body {
     padding: 15px !important;
     width: 100vw;
   }
-  .right > div > img {
-    position: absolute;
-    width: 287px;
-    height: auto;
-    bottom: 14vh;
-    background-image: url(../img/Zero.svg);
-    padding-top: 210px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
 }
 @media screen and (max-width: 778px) {
   /*  html {
@@ -489,7 +479,7 @@ body {
   line-height: 26px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.0em;
   text-transform: uppercase;
   color: #212121;
 }
@@ -1291,6 +1281,12 @@ body {
   margin-right: 40px;
   border: 1px solid #E2E0CB;
 }
+.review > p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  min-height: 176px;
+}
 .review > div {
   display: flex;
   flex-wrap: nowrap;
@@ -1299,7 +1295,7 @@ body {
   width: 400px;
   height: 24px;
   margin: 0;
-  padding-left: 16px;
+  padding-left: 0px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -1889,7 +1885,7 @@ footer {
 }
 footer > div > div > div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 80px;
 }
@@ -2195,7 +2191,7 @@ footer > div > div > div > div > a:visited {
     background-size: contain;
   }
 }
-@media (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
   .target {
     width: 298px;
     height: 298px;
@@ -2208,7 +2204,7 @@ footer > div > div > div > div > a:visited {
     display: none;
   }
 }
-@media (min-width: 669px) and (max-width: 770px) {
+@media screen and (min-width: 669px) and (max-width: 770px) {
   .right > div > img {
     position: absolute;
     width: 520px;
@@ -2243,9 +2239,18 @@ footer > div > div > div > div > a:visited {
   width: 100%;
 }
 .popup_img {
+  top: 50px;
   position: relative;
   margin: 0;
   z-index: 2;
-  max-height: 94%;
-  max-width: 94%;
+  max-height: 89%;
+  max-width: 89%;
+}
+@media screen and (min-width: 1276px) and (max-width: 1680px) {
+  .right > div > img {
+    width: 475px;
+    height: auto;
+    bottom: 12vh;
+    padding-top: 110px;
+  }
 }
